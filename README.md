@@ -1,2 +1,2 @@
-# css_study
+# Study CSS
 CSS Study
