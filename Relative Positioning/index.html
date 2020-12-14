@@ -5,17 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .relative {
+        .parent {
+            border: 1px solid black;
+        }
+        .relative1 {
             background-color: yellowgreen;
+            position: relative;
+            top: 15px;
+        }
+        .relative2 {
+            background-color: yellow;
             position: relative;
             top: 8px;
         }
     </style>
 </head>
 <body>
-    <div>
-        <div class="relative">Hello</div>
-        <div>World</div>
+    <div class="parent">
+        <div>This is static.</div>
+        <div class="relative1">Hello</div>
+        <div class="relative2">World</div>
     </div>
 </body>
 </html>
